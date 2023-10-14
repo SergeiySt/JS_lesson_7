@@ -3,12 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Вирази</title>
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="highlighted-block p-4">
+                    <h1 class="text-center">Форма для логіна користувача</h1>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Прізвище:</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
 
+                        <div class="form-group">
+                            <label for="password">Ім'я:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Логін:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Пароль:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Повторіть пароль:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Email:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Телефон:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Код:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="remember-me" name="remember-me">
+                            <label class="form-check-label" for="remember-me">I accept the rules</label>
+                            <!--    <input type="checkbox" id="remember-me" name="remember-me"><br><br>
+                            <label for="remember-me">Запомнить меня:</label> -->
+
+
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Зареєструвати</button>
+
+                    </form>
+                    <div id="result" class="mt-3 text-center"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
