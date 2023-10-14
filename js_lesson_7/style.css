@@ -1,0 +1,89 @@
+.highlighted-block {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#result2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#result3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.small-checkbox {
+    /*  transform: scale(1.3); */
+    /* margin-right: 0px; */
+    /* border-width: 1px; */
+
+}
+
+.forgot-password {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.color-palette {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.color-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.color-input input {
+    width: 50px;
+    height: 30px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-element {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 0.5px solid #a79e9e;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.color-code {
+    font-weight: bold;
+}
+
+
+#addColorButton {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+}
